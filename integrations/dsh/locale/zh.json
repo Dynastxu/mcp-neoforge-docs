@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "NeoForge 文档 MCP",
+    "description": "接入本地离线的 NeoForge 文档服务器，为智能体提供检索、章节、符号与跨版本对比工具。"
+  }
+}

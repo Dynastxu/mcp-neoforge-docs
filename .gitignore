@@ -1,0 +1,7 @@
+/.venv/
+/data/
+/.uv-cache/
+/.tmp/
+__pycache__/
+*.egg-info/
+tests/*.txt

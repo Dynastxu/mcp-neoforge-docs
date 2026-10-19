@@ -1,0 +1,17 @@
+- insert:
+    - id: neoforge-docs-mcp
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: neoforge-docs
+        transport: stdio
+        command: 'C:\Users\dynas\Documents\Code\mcp-neoforge-docs\.venv\Scripts\python.exe'
+        args:
+          - '-m'
+          - 'neoforge_docs_mcp'
+        cwd: 'C:\Users\dynas\Documents\Code\mcp-neoforge-docs'
+        env:
+          NEOFORGE_DOCS_ROOT: 'C:\Users\dynas\Documents\Code\mcp-neoforge-docs\neoforge-docs'
+          NEOFORGE_DOCS_DB: 'C:\Users\dynas\Documents\Code\mcp-neoforge-docs\data\neoforge-docs.sqlite3'
+          PYTHONUTF8: '1'
+        toolCallTimeoutMs: 120000
+        failOnStartupError: true

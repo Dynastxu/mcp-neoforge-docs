@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "NeoForge Docs MCP",
+    "description": "Connects the local offline NeoForge documentation server, giving the agent search, section, symbol and cross-version tools."
+  }
+}
